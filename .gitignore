@@ -1,0 +1,11 @@
+target/
+.bsp/
+.metals/
+.idea/
+.vscode/
+*.class
+*.jar
+
+data/*.csv
+
+docs/
