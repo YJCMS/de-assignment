@@ -9,7 +9,7 @@ object SessionGenerator {
   private val SESSION_TIMEOUT_SECONDS = 5 * 60
 
   def generate(df: DataFrame): DataFrame = {
-    val w = Window.partitionBy("user_id").orderBy("event_time_kst")
+    val w = Window.partitionBy("user_id").orderBy("event_time_kst", "user_session")
 
     df
       .withColumn("prev_event_time",
