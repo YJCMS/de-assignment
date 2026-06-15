@@ -1,8 +1,8 @@
 name := "ecommerce-spark-job"
 version := "1.0.0"
-scalaVersion := "2.12.18"
+scalaVersion := "2.13.17"
 
-val sparkVersion = "3.3.2"
+val sparkVersion = "4.1.2"
 
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion % "provided",

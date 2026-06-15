@@ -1,13 +1,22 @@
 target/
+project/project/
 .bsp/
 .metals/
 .idea/
 .vscode/
 .claude/
 CLAUDE.md
+assignmentInfo.md
 *.class
 *.jar
 
 data/*.csv
 
+metastore_db/
+derby.log
+spark-warehouse/
+output/
+
 docs/
+README.md
+sql/validation.sql
