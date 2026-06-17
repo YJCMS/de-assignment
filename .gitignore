@@ -18,5 +18,3 @@ spark-warehouse/
 output/
 
 docs/
-README.md
-sql/validation.sql
